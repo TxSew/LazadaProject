@@ -1,0 +1,28 @@
+section.tabars {
+     padding-top: 20px;
+    .tabars_box {
+         display: flex;
+    }
+    .tabars_content {
+         padding-right: 15px;
+         max-width: 200px;
+          width: 100%;
+         background-color: #fff;
+     & > ul {
+         margin: 0;
+          padding: 0;
+         list-style: none;
+         & > li {
+             & > a {
+                 text-decoration: none;
+                  color: #757575;
+                 font-size: 13px;
+             }
+         }
+     }
+    }
+    .tabars_slider {
+         flex: 1;
+    }
+}
+     

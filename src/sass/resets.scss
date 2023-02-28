@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  
+    font-family: Roboto-Regular,Helvetica,sans-serif;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+     overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button, input {
+     outline: none;
+    border: none;
+}
+@media (min-width:1400px) {
+.container {
+     max-width: 1210px !important;
+}
+}
